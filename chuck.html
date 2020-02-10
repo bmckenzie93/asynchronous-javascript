@@ -5,13 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="https://pagecdn.io/lib/skeleton/2.0.4/skeleton.css" rel="stylesheet" crossorigin="anonymous"  >
-  <title>Asynchronous Javascript</title>
+  <title>Chuck Norris Joke Generator</title>
 </head>
 <body>
   <div class="container">
-    
+    <h1>Chuck Norris Joke Generator</h1>
+    <form>
+      <div>
+        <label for="number">Number of Jokes</label>
+        <input type="number" id="number">
+      </div>
+      <div>
+        <button class="get-jokes">Get Jokes</button>
+      </div>
+    </form>
+    <ul class="jokes"></ul>
   </div>
   
-  <script src="json.js"></script>
+  <script src="chuck.js"></script>
 </body>
 </html>

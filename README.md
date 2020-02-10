@@ -11,5 +11,5 @@ In this repo I will be learning about AJAX an Fetch API
 
   When working with an array of json objects I needed to parse the json string into objects then iterate through each of them with a forEach method before displaying all of them to the dom. I'm getting the hang of this stuff!!! Next up: Chuck Norris Joke API
 
-  
+  DONE.
 } 
