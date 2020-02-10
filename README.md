@@ -8,4 +8,6 @@ In this repo I will be learning about AJAX an Fetch API
   After that I use .onLoad to do what I want with the data that I recieve, in this case I output it into the DOM and have it go away after 2 seconds just for fun. Next I will work with a JSON file.
 
   When working with a JSON file the procedure was basically the same except I had to parse the response into an object before being able to use it how I wanted to( display it in the dom). 
+
+  When working with an array of json objects I needed to parse the json string into objects then iterate through each of them with a forEach method before displaying all of them to the dom. I'm getting the hang of this stuff!!!!
 } 

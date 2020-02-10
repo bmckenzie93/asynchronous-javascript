@@ -1,17 +1,19 @@
-{
-  "id": 1,
-  "name": "Brandon McKenzie",
-  "age": 26
-}
+[
+  {
+    "id": 1,
+    "name": "Brandon McKenzie",
+    "age": 26
+  },
 
-{
-  "id": 1,
-  "name": "Brandon McKenzie",
-  "age": 26
-}
+  {
+    "id": 2,
+    "name": "Jasira Imhotep",
+    "age": 24
+  },
 
-{
-  "id": 1,
-  "name": "Brandon McKenzie",
-  "age": 26
-}
+  {
+    "id": 2,
+    "name": "Akili Imhotep-McKenzie",
+    "age": 3
+  }
+]
