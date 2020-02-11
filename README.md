@@ -12,6 +12,10 @@ In this repo I will be learning about AJAX an Fetch API
   When working with an array of json objects I needed to parse the json string into objects then iterate through each of them with a forEach method before displaying all of them to the dom. I'm getting the hang of this stuff!!! Next up: Chuck Norris Joke API
 
   DONE. Next: callback exercise
-
-  
 } 
+
+# 2-10-2020 (6:45pm) {
+  I am going to make a new js file with the same information as callback.js but I will edit it to use promices instead.
+
+  This was not much differant but a little simpler syntax. Fetch api will return a promice and it is a newer way of handleing asynchronous code, which I will be studying next - so good to know.
+}
