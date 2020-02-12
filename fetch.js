@@ -1,55 +1,42 @@
-document.getElementById('getText').addEventListener('click', getText);
-
-function getText() {
+const getText = () => {
   fetch('test.txt')
-    .then(function(response) {
-      return response.text();
-    })
-    .then(function(data) {
+    .then(response => response.text())
+    .then(data => {
       const p = document.createElement('p');
       p.textContent = data;
       document.getElementById('output').appendChild(p);
     })
-    .catch(function(error) {
-      console.log(error);
-    });
+    .catch(error => console.log(error));
+};
+
+document.getElementById('getText').addEventListener('click', getText);
+
+
+const getJson = () => {
+  fetch('customers.json')
+    .then(response => response.json())
+    .then(data => data.forEach(customer => {
+        document.getElementById('output').innerHTML += `
+          <ul><li><h1>${customer.id}</h1></li><li>${customer.name}</li><li>${customer.age}</li></ul>
+        `
+      }))
+    .catch(error => console.log(error));
 }
 
 document.getElementById('getJson').addEventListener('click', getJson);
 
-function getJson() {
-  fetch('customers.json')
-    .then(function(response) {
-      return response.json();
-    })
-    .then(function(data) {
-      data.forEach(function(customer) {
-        document.getElementById('output').innerHTML += `
-          <ul><li><h1>${customer.id}</h1></li><li>${customer.name}</li><li>${customer.age}</li></ul>
-        `
-      })
-    })
-    .catch(function(error) {
-      console.log(error);
-    })
-}
 
-
-document.getElementById('getApi').addEventListener('click', getApi);
-
-function getApi() {
+const getApi = () => {
   fetch('https://api.github.com/users')
-    .then(function(response) {
-      return response.json();
-    })
-    .then(function(data) {
-      data.forEach(function(user) {
+    .then(response => response.json())
+    .then(data => {
+      data.forEach(user => {
         document.getElementById('output').innerHTML += `
           <ul><li><h1>${user.login}</h1><</li></ul>
         `
       })
     })
-    .catch(function(error) {
-      console.log(error);
-    })
-}
+    .catch(error => console.log(error))
+};
+
+document.getElementById('getApi').addEventListener('click', getApi);
