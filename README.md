@@ -19,3 +19,6 @@ In this repo I will be learning about AJAX an Fetch API
 
   This was not much differant but a little simpler syntax. Fetch api will return a promice and it is a newer way of handleing asynchronous code, which I will be studying next - so good to know.
 }
+# 2-11-2020 (7:30pm) {
+  I am working on retrieveing data from a text file, json file, and restful api, using the fetch api today.
+}
