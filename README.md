@@ -21,4 +21,6 @@ In this repo I will be learning about AJAX an Fetch API
 }
 # 2-11-2020 (7:30pm) {
   I am working on retrieveing data from a text file, json file, and restful api, using the fetch api today.
+
+  The fetch API is pretty easy to fetch data with. Next up is to learn about arrow functions -which have a lexical this- to slim down a lot of my code.
 }

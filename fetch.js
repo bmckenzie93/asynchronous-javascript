@@ -33,3 +33,23 @@ function getJson() {
       console.log(error);
     })
 }
+
+
+document.getElementById('getApi').addEventListener('click', getApi);
+
+function getApi() {
+  fetch('https://api.github.com/users')
+    .then(function(response) {
+      return response.json();
+    })
+    .then(function(data) {
+      data.forEach(function(user) {
+        document.getElementById('output').innerHTML += `
+          <ul><li><h1>${user.login}</h1><</li></ul>
+        `
+      })
+    })
+    .catch(function(error) {
+      console.log(error);
+    })
+}
