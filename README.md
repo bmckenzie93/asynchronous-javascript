@@ -26,3 +26,7 @@ In this repo I will be learning about AJAX an Fetch API
 
   I am now going to revise this code (fetch api sandbox) to use arrow functions instead of regular functions.
 }
+
+# 2-12-2020 (10:00pm) {
+  I am going to study async await in these async files I just added. Together used with fetch it cleans up and compacts the code a good amount, and I looked it up, and it works on pretty much all browswes now.
+}
