@@ -30,3 +30,9 @@ In this repo I will be learning about AJAX an Fetch API
 # 2-12-2020 (10:00pm) {
   I am going to study async await in these async files I just added. Together used with fetch it cleans up and compacts the code a good amount, and I looked it up, and it works on pretty much all browswes now.
 }
+
+# 2-21-2020 (9:30am) {
+  I am back to working on async await today, I have a good amount of time to dedicate to learning. I want to understand how to use async away with the fetch api to make http requests in a modern and elegant way.
+
+  Use async on a function that will fetch data. await and store the fetch responsein a variable , then await and store the response.json in a variable, then return the data. after that call the function .then do what you wish with the data.
+}
